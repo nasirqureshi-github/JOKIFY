@@ -15,7 +15,7 @@ const Joke = () => {
             setJoke(`${response.data.setup}\n${response.data.delivery}`)
         }
      } catch (error) {
-        setJoke("faild to fetch joke")
+        setJoke("faild to fetch joke, try agian")
          console.log("Error:", error);
      }
     }
